@@ -1,0 +1,26 @@
+{
+  "name": "javascript-lemmatizer",
+  "version": "1.0.0",
+  "description": "JavaScript Lemmatizer ====",
+  "main": "js/lemmatizer.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otamajakusi/javascript-lemmatizer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otamajakusi/javascript-lemmatizer/issues"
+  },
+  "homepage": "https://github.com/otamajakusi/javascript-lemmatizer#readme",
+  "dependencies": {
+    "node-localstorage": "^2.2.1",
+    "underscore": "^1.13.3"
+  }
+}
