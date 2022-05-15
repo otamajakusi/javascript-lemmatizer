@@ -5,16 +5,16 @@
 * by Takafumi Yamano, myabu
 */
 
-import * as _ from '../underscore/underscore.js'
+const _ = require('underscore');
 
-import AdjExc from '../dict/adj.exc.js'
-import AdvExc from '../dict/adv.exc.js'
-import IndexAdj from '../dict/index.adj.js'
-import IndexAdv from '../dict/index.adv.js'
-import IndexNoun from '../dict/index.noun.js'
-import IndexVerb from '../dict/index.verb.js'
-import NounExc from '../dict/noun.exc.js'
-import VerbExc from '../dict/verb.exc.js'
+const AdjExc = require('../dict/adj.exc.js');
+const AdvExc = require('../dict/adv.exc.js');
+const IndexAdj = require('../dict/index.adj.js');
+const IndexAdv = require('../dict/index.adv.js');
+const IndexNoun = require('../dict/index.noun.js');
+const IndexVerb = require('../dict/index.verb.js');
+const NounExc = require('../dict/noun.exc.js');
+const VerbExc = require('../dict/verb.exc.js');
 
 // extend String and define String#endsWith
 if (typeof String.endsWith !== "function") {
@@ -409,4 +409,4 @@ Lemmatizer.prototype = {
   }
 };
 
-export default Lemmatizer;
+module.exports = Lemmatizer;
